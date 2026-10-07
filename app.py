@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "CI/CD demo is running - version 2"
+    return "CI/CD demo is BROKEN"
 
 def add(a, b):
     return a + b
